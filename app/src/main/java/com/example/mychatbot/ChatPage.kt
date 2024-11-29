@@ -56,6 +56,9 @@ fun ChatPage(modifier: Modifier = Modifier , viewModel: ChatViewModel) {
     }
 }
 
+
+
+
 @Composable
 fun MessageList(modifier: Modifier = Modifier,messageList : List<MessageModel>) {
     if(messageList.isEmpty()){

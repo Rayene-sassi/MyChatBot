@@ -41,6 +41,7 @@ class MainActivity : ComponentActivity() {
                     ChatPage(modifier = Modifier.padding(innerPadding), chatViewModel)
                 }
 
+
             }
         }
     }
